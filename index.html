@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>SpaceX</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="style.css" rel="stylesheet" />
+		<link type="text/css" href="layout.css" rel="stylesheet" />
+		<link type="text/css" href="gauge.css" rel="stylesheet" />
+		<script src="charts.js"></script>	
+	</head>
+	<body onload="realtimeClock()">
+		<h1>SpaceX</h1>
+
+	    <div class="grid">
+			<div id="clock"></div>
+
+			<div class="box1"><h2>VOERTUIG INFORMATIE</h2>
+			
+				<div class="gauge"><p>BRANDSTOF</p>
+					<div class="gauge__body">
+						<div class="gauge__fill"></div>
+						<div class="gauge__cover">90%</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="box2"><h2>VOERTUIG OMGEVING</h2>
+
+				<div class="gauge2"><p>BRANDSTOF</p>
+					<div class="gauge__body2">
+						<div class="gauge__fill2"></div>
+						<div class="gauge__cover2">400km/s</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="box3"><h2>VOORRADEN</h2>
+				<div class="graph-cont">
+					<h3>WATER</h3><div class="bar bar1">80%</div>
+					<h3>VOEDSEL</h3><div class="bar bar2">90%</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+	</body>
+</html>
